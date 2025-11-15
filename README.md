@@ -17,7 +17,7 @@ O objeto conn pode vir nulo e o código usa ele direto sem verificar. Isso pode 
 As conexões utilizadas foram fechadas?
 Não. Connection, Statement e ResultSet não são fechados.
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Caminhos Básicos
 
 Eu identifiquei 4 caminhos básicos possíveis:
