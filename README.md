@@ -16,3 +16,16 @@ O objeto conn pode vir nulo e o código usa ele direto sem verificar. Isso pode 
 
 As conexões utilizadas foram fechadas?
 Não. Connection, Statement e ResultSet não são fechados.
+
+
+Caminhos Básicos
+
+Eu identifiquei 4 caminhos básicos possíveis:
+
+Caminho 1: conexão funciona → SQL executa → rs.next() = falso → retorna false
+
+Caminho 2: conexão funciona → SQL executa → rs.next() = verdadeiro → retorna true
+
+Caminho 3: conexão falha → conn = null → cai no catch → retorna false
+
+Caminho 4: SQL executa mas dá erro → cai no catch → retorna false
