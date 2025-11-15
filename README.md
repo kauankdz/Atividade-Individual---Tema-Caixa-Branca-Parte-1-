@@ -29,6 +29,7 @@ Caminho 2: conexão funciona → SQL executa → rs.next() = verdadeiro → reto
 Caminho 3: conexão falha → conn = null → cai no catch → retorna false
 
 Caminho 4: SQL executa mas dá erro → cai no catch → retorna false
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 COMPLEXIDADE CICLOMÁTICA;
 M = E – N + 2
@@ -46,4 +47,5 @@ M = 2 + 1
 M = 3
 
 Complexidade Ciclomática = 3
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
