@@ -30,7 +30,7 @@ public class User {
         String sql = "";
         Connection conn = conectarBD();
 
-        // monta sql na mão → vulnerável a SQL Injection (erro grave)
+        // monta sql na mão → vulnerável a SQL Injection 
         sql += "select nome from usuarios";
         sql += "where login = '" + login + "'";
         sql += "and senha = '" + senha + "';";
@@ -55,3 +55,4 @@ public class User {
     }
 }
 // fim da classe
+
